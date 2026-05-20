@@ -1,0 +1,7 @@
+/DATASET/
+/MIDI
+/AUDIOS
+
+
+# Ignore all files in the dataset directory
+# You can specify exceptions if needed, for example:
