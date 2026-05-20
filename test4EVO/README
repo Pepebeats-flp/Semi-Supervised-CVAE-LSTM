@@ -1,0 +1,104 @@
+# 🎶 Enriquecimiento Armónico de Progresiones MIDI con CVAE-LSTM
+
+Este proyecto implementa un modelo **CVAE-LSTM** (Autoencoder Variacional Condicional con redes LSTM) para enriquecer progresiones armónicas extraídas de archivos MIDI. Las progresiones generadas buscan mantener la tonalidad, pero incorporar tensiones, disonancias y acordes más complejos.
+
+---
+
+## 📦 Librerías utilizadas
+
+El proyecto fue desarrollado en Python, haciendo uso de las siguientes bibliotecas:
+
+- `torch` y `torch.nn` — entrenamiento del modelo CVAE-LSTM
+- `torchinfo` — visualización de arquitectura del modelo
+- `torch.utils.data` — carga de datos y padding de secuencias
+- `pretty_midi` — lectura, escritura y manipulación de archivos MIDI
+- `music21` — análisis armónico y representación de acordes
+- `difflib`, `re`, `pickle`, `os` — utilidades para procesamiento, serialización y manejo de archivos
+- `collections.defaultdict` — estructuras auxiliares para agrupación de datos
+
+---
+
+## ⚙️ Detalles del entrenamiento
+
+- **Modelo**: `CVAE_LSTM`
+  - `input_dim=32`
+  - `hidden_dim=16`
+  - `latent_dim=16`
+  - `embedding_dim=16`
+  - `num_layers=2`
+  - `dropout=0.5`
+  - `teacher forcing`: activado
+- **Datos**: 50 pares de progresiones MIDI (original → enriquecida)
+- **Representación**: acordes como tokens tipo `0_4_7`, uno por compás
+- **Aumentación**: transposición tonal en el preprocesamiento
+- **Espacio latente**: representa progresiones simples y complejas
+- **Generación**:
+  - Se usa `z` codificado del encoder
+  - Decodificación con LSTM
+  - Token inicial `<sos>`
+  - Stop en `<eos>` o al alcanzar longitud máxima
+
+---
+
+## 🧠 Validación y Métricas
+
+Para validar el modelo se usaron descriptores extraídos con **jSymbolic**, evaluando:
+
+- `Pitch_Class_Variability`
+- `Major_or_Minor`
+- `Vertical_Dissonance_Ratio`
+- `Standard_Triads`, `Seventh_Chords`, `Complex_Chords`, etc.
+
+Se compararon las métricas entre los archivos originales (`TESTx.mid`) y los generados (`GENERATEDx.mid`).
+
+---
+
+## ⏱️ Recursos utilizados
+
+- **Equipo local**: MacBook Pro Apple M2, 16 GB RAM
+- **Framework**: PyTorch (CPU)
+- **Tiempo de entrenamiento**: 0.5 minutos por epoch
+- **Epochs**: 100
+- **Batch size**: 1 (secuencia por compás)
+- **Pérdida**: `MSELoss` para reconstrucción, `KLDivLoss` para regularización del espacio latente, 
+  combinadas con ponderación de 0.5, `MusicLoss` para evaluar la calidad musical.
+- **Optimizador**: Adam con tasa de aprendizaje de 0.001
+---
+
+## 🚀 Ejecución completa del pipeline
+
+Este proyecto puede ejecutarse de principio a fin siguiendo los siguientes pasos. La tarea principal está contenida en el notebook `Entrega_Final.ipynb`.
+
+---
+
+### 🧩 1. Requisitos e instalación
+
+Asegúrate de tener Python 3.8 o superior. Luego instala las dependencias necesarias:
+
+```bash
+pip install torch pretty_midi music21 torchinfo
+```
+
+### 🧩 2. Ejecutar Jupyter
+Inicia Jupyter Notebook en la carpeta del proyecto:
+
+```bash
+jupyter notebook
+```
+### 🧩 3. Cargar el notebook 
+
+Abre el archivo `Entrega_Final.ipynb` y sigue las instrucciones para cargar los datos, entrenar el modelo y generar nuevas progresiones MIDI.
+
+### 🧩 4. Evaluar resultados
+
+Revisa las métricas generadas y compara las progresiones originales con las enriquecidas. Puedes usar herramientas como `jSymbolic` para analizar los archivos MIDI generados.
+Para usar eso , asegúrate de tener Java instalado y ejecuta:
+
+```bash
+cd jSymbolic_2_2_user
+java -jar jSymbolic2.jar  
+```
+
+Luego dentro de la interfaz, carga los archivos MIDI generados y originales para comparar las métricas. Y selecciona las métricas que quieras analizar, finalmente exporta los resultados a un archivo CSV, que se llamará `extracted_feature_values.csv`.
+
+

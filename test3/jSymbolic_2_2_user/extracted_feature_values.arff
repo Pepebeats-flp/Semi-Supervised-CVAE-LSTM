@@ -1,0 +1,13 @@
+@relation Converted_from_ACE_XML
+
+@attribute Vertical_Dissonance_Ratio numeric
+@attribute Standard_Triads numeric
+@attribute Diminished_and_Augmented_Triads numeric
+@attribute Dominant_Seventh_Chords numeric
+@attribute Seventh_Chords numeric
+@attribute Non-Standard_Chords numeric
+@attribute Complex_Chords numeric
+
+@data
+0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.3023, 0.0, 0.0, 0.0, 0.375, 0.625, 0.0

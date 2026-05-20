@@ -1,0 +1,3523 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/L3) Cmin-Gmaj-A7-Fmaj-Cmin.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>4E-1</v>
+			<v>4E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.111E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/L9) Abmaj7-Cmin7-Csmaj-Ebmaj.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.778E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.778E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.5E-1</v>
+			<v>0E0</v>
+			<v>2.5E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.5E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>5.001E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.5E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>5.001E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5.556E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>1.111E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.997E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/M1) Cm-Bb-Bb-Cm7-Fm7.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.381E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>9.524E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.381E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>9.524E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>4E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>4E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.9E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.9E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5.714E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>9.524E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>1.053E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>3.747E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>6E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>4E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>5E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/L5) Cmin-Emin-Emin-Fmaj-Cmin.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>8E-1</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>3.747E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>4E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/M3) Cm-Bb-Ab-Cs-Eb.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>8E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>2.5E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/M2) Cmin-Gmaj-C7-Fmin-Cmin.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>6E-1</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.111E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/L10) Cs-Fsdim7-Fm7-Bb9-F.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.214E-1</v>
+			<v>1.786E-1</v>
+			<v>0E0</v>
+			<v>1.071E-1</v>
+			<v>2.143E-1</v>
+			<v>0E0</v>
+			<v>3.571E-2</v>
+			<v>1.071E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.571E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.571E-2</v>
+			<v>3.214E-1</v>
+			<v>1.786E-1</v>
+			<v>0E0</v>
+			<v>1.071E-1</v>
+			<v>2.143E-1</v>
+			<v>0E0</v>
+			<v>3.571E-2</v>
+			<v>1.071E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>4E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.8E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>7.484E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.8E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>7.484E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.214E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.143E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>1.071E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>2.143E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>3.571E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>1.071E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.143E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>4E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>4E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/M4) Cmin-Gmaj-Fs7-F7-Cmin.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.381E-1</v>
+			<v>0E0</v>
+			<v>9.524E-2</v>
+			<v>2.381E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>9.524E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.381E-1</v>
+			<v>0E0</v>
+			<v>9.524E-2</v>
+			<v>2.381E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>9.524E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>4E-1</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>4E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.9E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.4E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.9E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.381E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>7.143E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>5.714E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>9.524E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>2.381E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>9.524E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.381E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>2.353E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>6E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>4E-1</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>4E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>2E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/L1) Cmin-Gmaj-Cmin-Fmin-Cmin.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>8E-1</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.667E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>4E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/M22) Cm-Bb-Bb-Dm7-Eb.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>6E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.111E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>5.882E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>3.747E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>3.333E-1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/M6) Cmin-Fsmin-A7-Dsmin-Cmin.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>8E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.111E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/Semi-Supervised-CVAE-LSTM/test4EVO/ComparacionL/L4) Cm-C7-Fm-Bb-C.mid</data_set_id>
+		<feature>
+			<name>Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Wrapped Vertical Interval Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.333E-1</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>2.778E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>5.556E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>0E0</v>
+			<v>4E-1</v>
+			<v>4E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitch Classes</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitch Classes</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Average Number of Simultaneous Pitches</name>
+			<v>3.2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Simultaneous Pitches</name>
+			<v>4.001E-1</v>
+		</feature>
+		<feature>
+			<name>Most Common Vertical Interval</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Second Most Common Vertical Interval</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Distance Between Two Most Common Vertical Intervals</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Vertical Interval</name>
+			<v>3.333E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Second Most Common Vertical Interval</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Prevalence Ratio of Two Most Common Vertical Intervals</name>
+			<v>8.333E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Unisons</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Seconds</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Thirds</name>
+			<v>6.111E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Tritones</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fourths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Perfect Fifths</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Sixths</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Sevenths</name>
+			<v>5.556E-2</v>
+		</feature>
+		<feature>
+			<name>Vertical Octaves</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Perfect Vertical Intervals</name>
+			<v>2.778E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>1.25E-1</v>
+		</feature>
+		<feature>
+			<name>Vertical Minor Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Vertical Major Third Prevalence</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Chord Duration</name>
+			<v>2.996E0</v>
+		</feature>
+		<feature>
+			<name>Partial Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>8E-1</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>2E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Minor Major Triad Ratio</name>
+			<v>1E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

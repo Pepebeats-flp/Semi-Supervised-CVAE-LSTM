@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/og.mid</data_set_id>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/pepebeats/Desktop/GENERATED.mid</data_set_id>
+		<feature>
+			<name>Vertical Dissonance Ratio</name>
+			<v>3.023E-1</v>
+		</feature>
+		<feature>
+			<name>Standard Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Diminished and Augmented Triads</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Dominant Seventh Chords</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Seventh Chords</name>
+			<v>3.75E-1</v>
+		</feature>
+		<feature>
+			<name>Non-Standard Chords</name>
+			<v>6.25E-1</v>
+		</feature>
+		<feature>
+			<name>Complex Chords</name>
+			<v>0E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
